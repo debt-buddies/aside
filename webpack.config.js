@@ -39,9 +39,9 @@ module.exports = {
       remotes: {
         HomeApp: "HomeApp@http://localhost:3000/remoteEntry.js",
       },
-    //   exposes: {
-    //     "./App": "./src/App.js",
-    //   },
+      exposes: {
+        "./App": "./src/App.js",
+      },
       shared: {
         ...dependencies, 
         react: {

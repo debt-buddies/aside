@@ -7,7 +7,7 @@ function App() {
   return (
     <div className="aside">
       <Suspense fallback={<div>loading header...</div>}>
-        <Header subtitle="for aside" />
+        <Header subtitle="for aside"  bgColor="red" />
       </Suspense>
       <div className="mainContent">Ini Aside</div>
     </div>
